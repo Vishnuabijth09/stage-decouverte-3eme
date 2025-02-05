@@ -6,7 +6,7 @@ let timeContainer = document.querySelector ('.time');
 
 btn.onclick = function(){
     let score = 0;
-    let time = 10;
+    let time = 20;
     container.innerHTML = "";
 
     let interval = setInterval( function showtarget(){
