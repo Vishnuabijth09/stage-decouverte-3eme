@@ -7,7 +7,6 @@ let timeContainer = document.querySelector ('.time');
 btn.onclick = function(){
     let score = 0;
     let time = 20;
-    let vie = 3;
     container.innerHTML = "";
 
     let interval = setInterval( function showtarget(){
@@ -22,7 +21,6 @@ btn.onclick = function(){
         //faire disparaitre la cible
         setTimeout(function(){
             target.remove();
-            vie=vie-1;
         },2000)
 
         //quand on clique sur le target

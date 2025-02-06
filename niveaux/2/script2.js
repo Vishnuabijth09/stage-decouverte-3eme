@@ -39,7 +39,7 @@ btn.onclick = function(){
         vieContainer.innerHTML = `vie : ${vie}`
 
         //fin du jeu quand le temps est ecoulé
-        if(time==0){
+        if(time==0 || vie == 0){
 
             clearInterval(interval);
             container.innerHTML= "le jeu est terminé zebiiii casse toi"    
