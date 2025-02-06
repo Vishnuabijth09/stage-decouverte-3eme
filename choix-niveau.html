@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choix du Niveau</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .level {
+            margin: 10px;
+            padding: 15px 30px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .level:hover {
+            background: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choisissez un Niveau</h1>
+    <button class="level" onclick="window.location.href='niveaux/1/niv1.html'">Niveau 1</button>
+    <button class="level" onclick="window.location.href='niveaux/2/niv2.html'">Niveau 2</button>
+    <button class="level" onclick="window.location.href='niveau3.html'">Niveau 3</button>
+</body>
+</html>

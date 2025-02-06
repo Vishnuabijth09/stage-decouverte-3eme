@@ -12,6 +12,7 @@ body {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-color: #9a92c4;
 } 
 .game_infos {
     display: flex;
@@ -21,14 +22,14 @@ body {
 .container {
     height: 400px;
     width: 500px;
-    border: 1px solid #999;
+    border: 1px solid #46e94e;
     cursor: crosshair;
     position: relative;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #59aa71;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     overflow: hidden;
@@ -44,9 +45,9 @@ body {
 button{
     padding: 10px 20px;
     margin-bottom: 20px;
-    background-color: #3c7103;
+    background-color: #03715f;
     border: 0;
-    color: #fff;
+    color: #96ff96;
     border-radius: 6px;
     cursor: pointer;
 }
